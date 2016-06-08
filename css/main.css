@@ -103,7 +103,7 @@ html, body {
 .subb{
 	display: block !important;
 	position: relative;
-	color: #a33332;
+	color: white;
 	font-family: Montserrat;
 	font-weight: 800;
 	top:10%;
@@ -115,7 +115,7 @@ html, body {
 	display: block !important;
 	position: absolute;
 	top:10%;
-	color: #a33332;
+	color: white;
 	font-family: Montserrat;
 	font-weight: 800;
 	right:15%;
