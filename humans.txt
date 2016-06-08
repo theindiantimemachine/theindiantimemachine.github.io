@@ -3,13 +3,17 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Ashris ^_^
+	Ankita -_-
+	
+	We thought of the idea while sending each other old songs and ads and wondered if others might like such a collection too. Te project was made in 2 days.
 
 # THANKS
 
-    <name>
-
+    We would like to thank Stackoverflow, Google and Sublime Text without which designers like us would be subjected to the aristocratic apartheid of 
+	computer science nerds. Thank you for empowering us and democraticizing the world.
+	
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    jQuery, Modernizr
+    jQuery, Modernizr, Bootstrap, Youtube API

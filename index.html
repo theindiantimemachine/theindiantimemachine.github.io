@@ -14,8 +14,16 @@
     <script type="text/javascript" src="js/main.js"></script>
     </head>
     <body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <div class="controls">
-  <div class="headb"><h3>THE INDIAN TIME MACHINE</h3></div>
+  <div class="headb"><h4 style="margin-top:20px;">THE INDIAN TIME MACHINE</h4></div>
   <h2 class="subb">Take me back to</h2>
   <div id="yearr">
   <input type="text" value="2005" class="dial" data-width="34%"
@@ -32,22 +40,36 @@
 <label><input id="tv" class="bx" type="checkbox" checked>   TV Series</label>
 </div>
 
-<a href="#" onclick="yalgaar();"><div class="hitme">BRING NOSTALGIA ON!</div></a>
+<a href="#" onclick="yalgaar();"><div class="hitme">BRING IT ON!</div></a>
+<a href="#" onclick="yalgaar2();"><div class="hitme hitme2">RANDOMIZE!</div></a>
 
 <div class="playlist">
 <nav>
     <ul>
-Booya
+<div style="text-align:center;margin-top:95%;font-family:Montserrat;color:white;font-size:0.8em">Created by Ashris and Ankita</div>
+</div>
   </ul>
   </nav>
 
 </div>
   </div>
   <div class="framee">
-       <iframe id="ytplayer" type="text/html"
-  src="https://www.youtube.com/embed/fERFPIN5gF4?autoplay=0&showinfo=0&controls= "
-  frameborder="0" allowfullscreen></iframe>
+       <img src="img/img.jpg" class="img-reponsive wallp">
   </div>
+
+  
+  <div class="row" style="height:auto;position:absolute;top:105%;right:0;left:0">
+<div class="col-md-12" style="text-align:center;margin-top:20px">
+    <div class="fb-like" data-href="http://theindiantimemachine.github.io" data-width="200" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+    </div>
+    <div class="col-md-12" style="text-align:center;margin-top:20px">
+    <div class="fb-comments" data-href="http://theindiantimemachine.github.io" data-width="700" data-numposts="10"></div>
+    </div>
+    </div>
+
+
+</div>
+
     </body>
 
 </html>
