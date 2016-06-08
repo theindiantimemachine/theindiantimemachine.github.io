@@ -614,7 +614,7 @@ var dat=[
     "Tags": "Music"
   },
   {
-    "Name": "Feviqwik Ad",
+    "Name": "Feviqwik",
     "Link": "WcNCk6ULBqE",
     "Year": 1995,
     "Tags": "Advertisement"
@@ -650,7 +650,7 @@ var dat=[
     "Tags": "Advertisement"
   },
   {
-    "Name": "Surf Ad",
+    "Name": "Surf",
     "Link": "iUGyem3H3Cs",
     "Year": 1994,
     "Tags": "Advertisement"
@@ -788,7 +788,7 @@ var dat=[
     "Tags": "Music"
   },
   {
-    "Name": "Airtel Ad",
+    "Name": "Airtel",
     "Link": "LnoYvASi6Qc",
     "Year": 2003,
     "Tags": "Advertisement"
@@ -1058,7 +1058,7 @@ var dat=[
     "Tags": "Music"
   },
   {
-    "Name": "Ponds Ad",
+    "Name": "Ponds",
     "Link": "Ii8dR35JkaM",
     "Year": 2003,
     "Tags": "Advertisement"
@@ -1616,13 +1616,13 @@ var dat=[
     "Tags": "Advertisement"
   },
   {
-    "Name": "Miranda Ad",
+    "Name": "Miranda",
     "Link": "l3eJVIb6QKM",
     "Year": 2004,
     "Tags": "Advertisement"
   },
   {
-    "Name": "Miranda Ad 2",
+    "Name": "Miranda",
     "Link": "81J-6UsZACU",
     "Year": 2004,
     "Tags": "Advertisement"
