@@ -59,7 +59,7 @@ html, body {
 	vertical-align: middle;
 	color: white;
 	font-size: 18px !important;
-	font-family: Track;
+	font-family: Open Sans;
 	background-color: #a33332;
 }
 #yearr{
@@ -92,7 +92,7 @@ html, body {
 	font-size:1em;
 	padding-top: 16px;
 	color: white;
-	font-family: Track;
+	font-family: Open Sans;
 	background-color: #a33332;
 }
 .hitme2{
@@ -164,7 +164,7 @@ html, body {
 	font-size:1em;
 	padding-top: 16px;
 	color: white;
-	font-family: Track;
+	font-family: Open Sans;
 	background-color: #a33332;
 
 }
@@ -220,7 +220,7 @@ a:link{
 	display:block;text-align:left;font-family:Open Sans;color:white;padding:20px;
 }
 #instr>h5{
-	font-family: Track;
+	font-family: Open Sans;
 	color:#a33332;
 
 }
