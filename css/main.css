@@ -29,7 +29,7 @@ a{
 }
 #instr>p{
 	font-family: Montserrat;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	margin-bottom: 20px;
 	text-align: justify;
 	width: 80%;
@@ -62,6 +62,7 @@ a{
 	color: white;
 	font-size: 18px !important;
 	font-family: Track;
+	padding-top:9%;
 	background-color: #793212;
 }
 #yearr{
@@ -92,8 +93,8 @@ a{
 	width: 50%;
 	height: 16%;
 	text-align: center;
-	font-size:1em;
-	padding-top: 16px;
+	font-size:0.9em;
+	padding-top: 8%;
 	color: white;
 	font-family: Track;
 	background-color: #793212;
