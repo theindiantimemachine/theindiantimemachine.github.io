@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-	
+
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>The Indian Time Machine</title>
 </head>
 <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
@@ -12,7 +12,7 @@
 Take me on a Nostalgia trip to the 90s
 </div>
 <div class="bike">
-<img src="bike.png" width="40%" id="boo">
+<img src="bike.png" id="boo">
 <div style="text-align:center">
 </div>
 <button id="but">Take me to the time machine!</button>
@@ -23,6 +23,39 @@ Take me on a Nostalgia trip to the 90s
 html,body{
 	background: #fcd85d;
 }
+#boo{
+	width: 70%;
+}
+.banner{
+font-family: Pacifico;
+text-align: center;
+margin-top: 20%;
+color:#dd6439;
+font-size: 2.4em;
+}
+.bike{
+	text-align: center;
+}
+button{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #dd6439;
+	color:white;
+	text-transform: uppercase;
+	border: 0;
+	border-radius: 15px;
+	font-family: Montserrat;
+	display: block;
+	margin-left:17%;
+	cursor:pointer;
+	position: absolute;
+	top:70%;
+}
+@media screen and (min-width: 1000px){
+	#boo{
+		width: 40%;
+	}
 .banner{
 font-family: Pacifico;
 text-align: center;
@@ -48,6 +81,7 @@ button{
 	cursor:pointer;
 	position: absolute;
 	top:84%;
+}
 }
 </style>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
