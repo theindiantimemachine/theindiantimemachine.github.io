@@ -11,6 +11,21 @@ html, body {
 	     url('fonts/Track.woff') format('woff'),
 	     url('fonts/Track.svg#webfont') format('svg');
 }
+#instr{
+	text-align:left;font-family:Montserrat;color:white;padding:20px;
+}
+#instr>h5{
+	font-family: Track;
+	color:#a33332;
+
+}
+#instr>p{
+	font-family: Montserrat;
+	font-size: 0.9em;
+	margin-bottom: 20px;
+	text-align: justify;
+	width: 80%;
+}
 .wallp{
 	position:absolute;width:100%;height:50%;top:0;
 }
