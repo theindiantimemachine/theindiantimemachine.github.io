@@ -3,18 +3,13 @@ html, body {
     overflow-x: hidden;
     background: #FCD85D;
 }
-#instr{
-	display:none;
-}
+
 @font-face{ 
 	font-family: 'Track';
 	src: url('fonts/Track.eot');
 	src: url('Track.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/Track.woff') format('woff'),
 	     url('fonts/Track.svg#webfont') format('svg');
-}
-.framee{
-	background-color:#FCD85D;
 }
 #instr{
 	text-align:left;font-family:Montserrat;color:white;padding:20px;
@@ -31,10 +26,8 @@ html, body {
 	text-align: justify;
 	width: 80%;
 }
-
-
 .wallp{
-	position:absolute;width:100%;top:0;
+	position:absolute;width:100%;height:50%;top:0;
 }
 #ytplayer{
     position : absolute;
@@ -125,7 +118,7 @@ html, body {
 .subb{
 	display: block !important;
 	position: relative;
-	color: white;
+	color: #a33332;
 	font-family: Montserrat;
 	font-weight: 800;
 	top:10%;
@@ -137,7 +130,7 @@ html, body {
 	display: block !important;
 	position: absolute;
 	top:10%;
-	color: white;
+	color: #a33332;
 	font-family: Montserrat;
 	font-weight: 800;
 	right:15%;
@@ -175,7 +168,20 @@ html, body {
 	position: absolute;
 	top:48%;
 	width: 100%;
-	height:52%;
+	height:45%;
+	padding-bottom: 15px;
+}
+.expand{
+	position: absolute;
+	width: 100%;
+	height: 7%;
+	top:93%;
+	background: #a33332;
+	color: white;
+	font-family: Montserrat;
+	text-align: center;
+	padding-top: 15px;
+	cursor: pointer;
 }
 nav ul{
 	height:100%; 
@@ -215,19 +221,7 @@ a:link{
 .wallp{
 	position:absolute;width:75%;height:auto;top:0;right:0;text-align:right;
 }
-#instr{
-	display:block;text-align:left;font-family:Montserrat;color:white;padding:20px;
-}
-#instr>h5{
-	font-family: Track;
-	color:#a33332;
-
-}
-#instr>p{
-	font-family: Montserrat;
-	font-size: 0.9em;
-	margin-bottom: 20px;
-	text-align: justify;
-	width: 80%;
+.footerp{
+	 display:none;height:auto;position:absolute;top:100%;right:0;left:0;background:#eee;
 }
 }
