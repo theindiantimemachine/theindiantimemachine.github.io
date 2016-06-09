@@ -31,9 +31,8 @@ html, body {
 	text-align: justify;
 	width: 80%;
 }
-=======
 
->>>>>>> origin/master
+
 .wallp{
 	position:absolute;width:100%;top:0;
 }
@@ -214,7 +213,7 @@ a:link{
 	text-decoration: none;
 }
 .wallp{
-	position:absolute;width:75%;top:0;right:0;text-align:right;
+	position:absolute;width:75%;height:auto;top:0;right:0;text-align:right;
 }
 #instr{
 	display:block;text-align:left;font-family:Montserrat;color:white;padding:20px;
