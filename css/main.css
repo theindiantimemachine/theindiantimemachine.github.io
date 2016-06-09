@@ -16,7 +16,7 @@ html, body {
 }
 #instr>h5{
 	font-family: Track;
-	color:#a33332;
+	color:#793212;
 
 }
 #instr>p{
@@ -40,7 +40,7 @@ html, body {
     top      : 50%;
     height   : 50%;
     width    : 100%;
-    background-color: #e15349;
+    background-color: #da732e;
 }
 .headb{
 	position: absolute;
@@ -52,7 +52,7 @@ html, body {
 	color: white;
 	font-size: 18px !important;
 	font-family: Track;
-	background-color: #a33332;
+	background-color: #793212;
 }
 #yearr{
 	position: relative;
@@ -69,7 +69,7 @@ html, body {
 	display: block !important;
 	position: absolute;
 	top:30%;
-	color: #a33332;
+	color: #793212;
 	font-family: Montserrat;
 	font-weight: 800;
 	right:10%;
@@ -85,7 +85,7 @@ html, body {
 	padding-top: 16px;
 	color: white;
 	font-family: Track;
-	background-color: #a33332;
+	background-color: #793212;
 }
 .hitme2{
 	width:100%;
@@ -105,7 +105,7 @@ html, body {
     left    : 0;
     height   : 100%;
     width    : 25%;
-    background-color: #e15349;
+    background-color: #da732e;
 }
 .headb{
 	height: 10%;
@@ -118,7 +118,7 @@ html, body {
 .subb{
 	display: block !important;
 	position: relative;
-	color: #a33332;
+	color: #793212;
 	font-family: Montserrat;
 	font-weight: 800;
 	top:10%;
@@ -130,7 +130,7 @@ html, body {
 	display: block !important;
 	position: absolute;
 	top:10%;
-	color: #a33332;
+	color: #793212;
 	font-family: Montserrat;
 	font-weight: 800;
 	right:15%;
@@ -141,7 +141,7 @@ html, body {
 	display: block !important;
 	position: absolute;
 	top:20%;
-	color: #a33332;
+	color: #793212;
 	font-family: Montserrat;
 	font-weight: 800;
 	right:10%;
@@ -157,7 +157,7 @@ html, body {
 	padding-top: 16px;
 	color: white;
 	font-family: Track;
-	background-color: #a33332;
+	background-color: #793212;
 
 }
 .hitme2{
@@ -176,7 +176,7 @@ html, body {
 	width: 100%;
 	height: 7%;
 	top:93%;
-	background: #a33332;
+	background: #793212;
 	color: white;
 	font-family: Montserrat;
 	text-align: center;
@@ -206,7 +206,7 @@ nav ul li{
 }
 nav ul a:hover,nav ul li:hover{
 	background: white;
-	color:#a33332;
+	color:#793212;
 	text-decoration: none;
 }
 a:visited
