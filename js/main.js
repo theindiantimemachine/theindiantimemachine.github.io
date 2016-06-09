@@ -1,5 +1,6 @@
 var yearval=2005;
 var bip=-1;
+var counter=0;
 var dat=[
   {
     "Name": "Kabhi Aisa Lagta Hai",
@@ -1900,4 +1901,16 @@ $('.framee').html('<iframe id="ytplayer" type="text/html" src="" frameborder="0"
 bip=100;
 }
 $('#ytplayer').attr('src', dork);
+}
+function showfoot(){
+	counter++;
+	if(counter%2==1){
+	$('.footerp').css("display","block");
+	$('.expand').html("Hide Like and Comment");
+	$("html, body").animate({ scrollTop: $(document).height() }, 1000);
+}
+else{
+$('.footerp').css("display","none");	
+$('.expand').html("Like and Comment");
+}
 }
