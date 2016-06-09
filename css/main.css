@@ -17,7 +17,7 @@ html, body {
 	background-color:#FCD85D;
 }
 #instr{
-	text-align:left;font-family:Montserrat;color:white;padding:20px;
+	text-align:left;font-family:Open Sans;color:white;padding:20px;
 }
 #instr>h5{
 	font-family: Track;
@@ -25,7 +25,7 @@ html, body {
 
 }
 #instr>p{
-	font-family: Montserrat;
+	font-family: Open Sans;
 	font-size: 0.9em;
 	margin-bottom: 20px;
 	text-align: justify;
@@ -78,7 +78,7 @@ html, body {
 	position: absolute;
 	top:30%;
 	color: #a33332;
-	font-family: Montserrat;
+	font-family: Open Sans;
 	font-weight: 800;
 	right:10%;
 	font-size: 1em;
@@ -127,7 +127,7 @@ html, body {
 	display: block !important;
 	position: relative;
 	color: white;
-	font-family: Montserrat;
+	font-family: Open Sans;
 	font-weight: 800;
 	top:10%;
 	left:5%;
@@ -139,7 +139,7 @@ html, body {
 	position: absolute;
 	top:10%;
 	color: white;
-	font-family: Montserrat;
+	font-family: Open Sans;
 	font-weight: 800;
 	right:15%;
 	font-size: 1em;
@@ -150,7 +150,7 @@ html, body {
 	position: absolute;
 	top:20%;
 	color: #a33332;
-	font-family: Montserrat;
+	font-family: Open Sans;
 	font-weight: 800;
 	right:10%;
 	font-size: 1em;
@@ -188,7 +188,7 @@ nav ul{
 nav ul a{
 	text-decoration: none;
 	color:white;
-	font-family: Montserrat;
+	font-family: Open Sans;
 
 }
 nav ul li{
@@ -217,7 +217,7 @@ a:link{
 	position:absolute;width:75%;top:0;right:0;text-align:right;
 }
 #instr{
-	display:block;text-align:left;font-family:Montserrat;color:white;padding:20px;
+	display:block;text-align:left;font-family:Open Sans;color:white;padding:20px;
 }
 #instr>h5{
 	font-family: Track;
@@ -225,7 +225,7 @@ a:link{
 
 }
 #instr>p{
-	font-family: Montserrat;
+	font-family: Open Sans;
 	font-size: 0.9em;
 	margin-bottom: 20px;
 	text-align: justify;
