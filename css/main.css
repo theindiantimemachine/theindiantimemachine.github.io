@@ -1,10 +1,15 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    background: #eee;
+    background: #FCD85D;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
-#instr{
-	display:none;
+
+a{
+	cursor:pointer;
 }
 @font-face{ 
 	font-family: 'Track';
@@ -13,13 +18,12 @@ html, body {
 	     url('fonts/Track.woff') format('woff'),
 	     url('fonts/Track.svg#webfont') format('svg');
 }
-<<<<<<< HEAD
 #instr{
 	text-align:left;font-family:Montserrat;color:white;padding:20px;
 }
 #instr>h5{
 	font-family: Track;
-	color:#a33332;
+	color:#793212;
 
 }
 #instr>p{
@@ -29,11 +33,8 @@ html, body {
 	text-align: justify;
 	width: 80%;
 }
-=======
-
->>>>>>> origin/master
 .wallp{
-	position:absolute;width:100%;height:50%;top:0;
+	position:absolute;width:100%;padding-right:0;height:auto;max-height:50%;top:0;
 }
 #ytplayer{
     position : absolute;
@@ -46,19 +47,19 @@ html, body {
     top      : 50%;
     height   : 50%;
     width    : 100%;
-    background-color: #e15349;
+    background-color: #da732e;
 }
 .headb{
 	position: absolute;
 	top: 0;
-	width: 100%;
+	width: 105%;
 	height: 20%;
 	text-align: center;
 	vertical-align: middle;
 	color: white;
 	font-size: 18px !important;
 	font-family: Track;
-	background-color: #a33332;
+	background-color: #793212;
 }
 #yearr{
 	position: relative;
@@ -74,96 +75,25 @@ html, body {
 .filters{
 	display: block !important;
 	position: absolute;
-	top:30%;
-	color: #a33332;
+	top:40%;
+	left:45%;
+	color: #793212;
 	font-family: Montserrat;
 	font-weight: 800;
-	right:10%;
-	font-size: 1em;
+	font-size: 1.2em;
 }
+
 .hitme{
 	position: absolute;
 	top: 85%;
 	width: 50%;
-	height: 8%;
+	height: 16%;
 	text-align: center;
 	font-size:1em;
 	padding-top: 16px;
 	color: white;
 	font-family: Track;
-	background-color: #a33332;
-}
-.hitme2{
-	width:100%;
-	height:15%;
-}
-@media screen and (min-width: 1000px){
-#ytplayer{
-    position : absolute;
-    top      : 0;
-    right    : 0;
-    height   : 100%;
-    width    : 75%;
-}
-.controls{
-	position : absolute;
-    top      : 0;
-    left    : 0;
-    height   : 100%;
-    width    : 25%;
-    background-color: #e15349;
-}
-.headb{
-	height: 10%;
-}
-#yearr{
-	position: relative;
-	top:11%;
-	left:5%;
-}
-.subb{
-	display: block !important;
-	position: relative;
-	color: white;
-	font-family: Montserrat;
-	font-weight: 800;
-	top:10%;
-	left:5%;
-	text-align: left;
-	font-size: 1em;
-}
-.filtertop{
-	display: block !important;
-	position: absolute;
-	top:10%;
-	color: white;
-	font-family: Montserrat;
-	font-weight: 800;
-	right:15%;
-	font-size: 1em;
-
-}
-.filters{
-	display: block !important;
-	position: absolute;
-	top:20%;
-	color: #a33332;
-	font-family: Montserrat;
-	font-weight: 800;
-	right:10%;
-	font-size: 1em;
-}
-.hitme{
-	position: absolute;
-	top: 40%;
-	width: 50%;
-	height: 8%;
-	text-align: center;
-	font-size:1em;
-	padding-top: 16px;
-	color: white;
-	font-family: Track;
-	background-color: #a33332;
+	background-color: #793212;
 
 }
 .hitme2{
@@ -172,13 +102,63 @@ html, body {
 }
 .playlist{
 	position: absolute;
-	top:48%;
+	top:116%;
 	width: 100%;
-	height:52%;
+	height:37%;
+	background: #da732e;
+}
+.searchbar{
+	position: absolute;
+	top:100%;
+	width: 100%;
+	height:16%;
+	background: #da732e;
+	background-color: #793212;
+	border-top:2px #da732e solid;
+	padding-top: 3%;
+}
+.sicon{
+	margin-left: 10%;
+	padding-top: 6px;
+	color: white;
+}
+.sbar{
+	position: absolute;
+	width:65%;
+	margin-left: 3%;
+	background-color: #793212;
+	border-top:-0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom:1px solid white;
+	font-family: Montserrat;
+	color: white;
+}
+.sbar:focus{
+	outline: none;
+}
+
+nav{
+	background-color: #da732e;
+}
+.expand{
+	position: absolute;
+	width: 100%;
+	height: 16%;
+	top:195%;
+	background: #793212;
+	color: white;
+	font-family: Montserrat;
+	text-align: center;
+	padding-top: 15px;
+	cursor: pointer;
+}
+.footerp{
+	 display:none;height:auto;position:absolute;top:165%;right:0;left:0;background:#eee;
 }
 nav ul{
-	height:100%; 
-	width:100%;
+	height:220%; 
+	width:100%;padding-right:0;
 	padding-left: 0px;
 	overflow:hidden; 
 	overflow-y:auto;
@@ -199,7 +179,141 @@ nav ul li{
 }
 nav ul a:hover,nav ul li:hover{
 	background: white;
-	color:#a33332;
+	color:#793212;
+	text-decoration: none;
+}
+a:visited
+{
+	color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a:link{
+	text-decoration: none;
+}
+@media screen and (min-width: 1000px){
+#ytplayer{
+    position : absolute;
+    top      : 0;
+    right    : 0;
+    height   : 100%;
+    width    : 75%;
+}
+.controls{
+	position : absolute;
+    top      : 0;
+    left    : 0;
+    height   : 100%;
+    width    : 25%;
+    background-color: #da732e;
+}
+.headb{
+	height: 10%;
+	padding-top: 10px;
+}
+#yearr{
+	position: relative;
+	top:11%;
+	left:5%;
+}
+.subb{
+	display: block !important;
+	position: relative;
+	color: #793212;
+	font-family: Montserrat;
+	font-weight: 800;
+	top:10%;
+	left:5%;
+	text-align: left;
+	font-size: 1em;
+}
+.filtertop{
+	display: block !important;
+	position: absolute;
+	top:10%;
+	color: #793212;
+	font-family: Montserrat;
+	font-weight: 800;
+	right:15%;
+	font-size: 1em;
+
+}
+.filters{
+	display: block !important;
+	position: absolute;
+	top:20%;
+	color: #793212;
+	font-family: Montserrat;
+	font-weight: 800;
+	right:10%;
+	font-size: 1em;
+}
+.hitme{
+	position: absolute;
+	top: 40%;
+	width: 50%;
+	height: 8%;
+	text-align: center;
+	font-size:1em;
+	padding-top: 16px;
+	color: white;
+	font-family: Track;
+	background-color: #793212;
+
+}
+.hitme2{
+	right:0%;
+	border-left:2px solid #da732e;
+}
+.searchbar{
+	position: absolute;
+	top:48%;
+	width: 100%;
+	height:8%;
+}
+.playlist{
+	position: absolute;
+	top:55%;
+	width: 100%;
+	height:37%;
+	padding-bottom: 15px;
+}
+.expand{
+	position: absolute;
+	width: 100%;
+	height: 7%;
+	top:93%;
+	background: #793212;
+	color: white;
+	font-family: Montserrat;
+	text-align: center;
+	padding-top: 15px;
+	cursor: pointer;
+}
+nav ul{
+	height:100%; 
+	width:100%;padding-right:0;
+	padding-left: 0px;
+	overflow:hidden; 
+	overflow-y:auto;
+}
+nav ul a{
+	text-decoration: none;
+	color:white;
+	font-family: Montserrat;
+
+}
+nav ul li{
+	padding-top: 20px;
+	left:5%;
+	padding-bottom: 20px;
+	list-style: none;
+	padding-left: 20px;
+	border-bottom: 0.5px solid #eee;
+}
+nav ul a:hover,nav ul li:hover{
+	background: white;
+	color:#793212;
 	text-decoration: none;
 }
 a:visited
@@ -212,21 +326,39 @@ a:link{
 	text-decoration: none;
 }
 .wallp{
-	position:absolute;width:75%;height:100%;top:0;right:0;text-align:right;
+	position:absolute;width:75%;height:auto;top:0;right:0;text-align:right;max-height:none;
 }
-#instr{
-	display:block;text-align:left;font-family:Montserrat;color:white;padding:20px;
+.footerp{
+	 display:none;height:auto;position:absolute;top:100%;right:0;left:0;background:#eee;
 }
-#instr>h5{
-	font-family: Track;
-	color:#a33332;
-
+.searchbar{
+	position: absolute;
+	top:48%;
+	width: 100%;
+	height:8%;
+	background: #da732e;
+	background-color: #793212;
+	border-top:2px #da732e solid;
+	padding-top: 3%;
 }
-#instr>p{
+.sicon{
+	margin-left: 10%;
+	padding-top: 6px;
+	color: white;
+}
+.sbar{
+	position: absolute;
+	width:65%;
+	margin-left: 3%;
+	background-color: #793212;
+	border-top:-0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom:1px solid white;
 	font-family: Montserrat;
-	font-size: 0.9em;
-	margin-bottom: 20px;
-	text-align: justify;
-	width: 80%;
+	color: white;
+}
+.sbar:focus{
+	outline: none;
 }
 }

@@ -1,5 +1,6 @@
 var yearval=2005;
 var bip=-1;
+var counter=0;
 var dat=[
   {
     "Name": "Kabhi Aisa Lagta Hai",
@@ -963,7 +964,7 @@ var dat=[
   },
   {
     "Name": "Chachi 420",
-    "Link": "CkTdlgOArWM",
+    "Link": "3tLky6QLjx8",
     "Year": 1997,
     "Tags": "Music"
   },
@@ -1017,7 +1018,7 @@ var dat=[
   },
   {
     "Name": "Big Babool",
-    "Link": "lfTyMVHFjhQ",
+    "Link": "S-C4ovOdNh4",
     "Year": 2005,
     "Tags": "Advertisement"
   },
@@ -1880,6 +1881,19 @@ shuffle(dat);
     	}
     	$('nav ul').html(cook);
     }
+function powder(){
+  var cooks="";
+  var query=$('#search').val();
+  for(var i=0;i<dat.length;i++){
+    var nm=dat[i].Name.toLowerCase();
+        
+        if (nm.indexOf(query.toLowerCase())!=-1){
+          cooks=cooks+'<a href="#" onclick="forshana(this);" damn='+dat[i].Link+'><li>'+dat[i].Name+'</li></a>';
+          //onclick="forshana('+dat[i].Link+');"
+        }
+      }
+      $('nav ul').html(cooks);
+}
 
 function forshana(abra){
 	if(bip==-1){
@@ -1900,4 +1914,16 @@ $('.framee').html('<iframe id="ytplayer" type="text/html" src="" frameborder="0"
 bip=100;
 }
 $('#ytplayer').attr('src', dork);
+}
+function showfoot(){
+	counter++;
+	if(counter%2==1){
+	$('.footerp').css("display","block");
+	$('.expand').html("Hide Like and Comment");
+	$("html, body").animate({ scrollTop: $(document).height() }, 1000);
+}
+else{
+$('.footerp').css("display","none");	
+$('.expand').html("Like and Comment");
+}
 }
