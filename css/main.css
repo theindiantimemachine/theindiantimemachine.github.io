@@ -19,6 +19,7 @@ a{
 	     url('fonts/Track.svg#webfont') format('svg');
 }
 #instr{
+	padding:0;
 	text-align:left;font-family:Montserrat;color:white;padding:20px;
 }
 #instr>h5{
@@ -28,7 +29,7 @@ a{
 }
 #instr>p{
 	font-family: Montserrat;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	margin-bottom: 20px;
 	text-align: justify;
 	width: 80%;
@@ -43,6 +44,8 @@ a{
     width    : 100%;
 }
 .controls{
+	padding:0;
+	margin:0;
 	position : absolute;
     top      : 50%;
     height   : 50%;
@@ -54,6 +57,7 @@ a{
 	top: 0;
 	width: 105%;
 	height: 20%;
+	padding-top:-3%;
 	text-align: center;
 	vertical-align: middle;
 	color: white;
@@ -89,15 +93,16 @@ a{
 	width: 50%;
 	height: 16%;
 	text-align: center;
-	font-size:1em;
-	padding-top: 16px;
+	font-size:0.9em;
 	color: white;
+	padding-top:4%;
 	font-family: Track;
 	background-color: #793212;
 
 }
 .hitme2{
 	right:0%;
+<<<<<<< HEAD
 	border-left:1px solid white;
 }
 .playlist{
@@ -146,6 +151,31 @@ nav{
 	width: 100%;
 	height: 16%;
 	top:195%;
+=======
+	border-left:3px solid #da732e;
+}
+.playlist{
+	padding:0;
+	margin:0;
+	position: absolute;
+	top:100%;
+	width: 100%;
+	height:45%;
+	background: #da732e;
+}
+nav{
+		padding:0;
+	margin:0;
+	background-color: #da732e;
+}
+.expand{
+		padding:0;
+	margin:0;
+	position: absolute;
+	width: 100%;
+	height: 16%;
+	top:196%;
+>>>>>>> origin/master
 	background: #793212;
 	color: white;
 	font-family: Montserrat;
@@ -154,9 +184,19 @@ nav{
 	cursor: pointer;
 }
 .footerp{
+<<<<<<< HEAD
 	 display:none;height:auto;position:absolute;top:165%;right:0;left:0;background:#eee;
 }
 nav ul{
+=======
+		padding:0;
+	margin:0;
+	 display:none;height:auto;position:absolute;top:156.5%;right:0;left:0;background:#eee;
+}
+nav ul{
+		padding:0;
+	margin:0;
+>>>>>>> origin/master
 	height:220%; 
 	width:100%;padding-right:0;
 	padding-left: 0px;
@@ -269,6 +309,7 @@ a:link{
 	position: absolute;
 	top:48%;
 	width: 100%;
+<<<<<<< HEAD
 	height:8%;
 }
 .playlist{
@@ -276,6 +317,9 @@ a:link{
 	top:55%;
 	width: 100%;
 	height:37%;
+=======
+	height:45%;
+>>>>>>> origin/master
 	padding-bottom: 15px;
 }
 .expand{
@@ -327,6 +371,7 @@ a:link{
 }
 .wallp{
 	position:absolute;width:75%;height:auto;top:0;right:0;text-align:right;max-height:none;
+<<<<<<< HEAD
 }
 .footerp{
 	 display:none;height:auto;position:absolute;top:100%;right:0;left:0;background:#eee;
@@ -357,6 +402,11 @@ a:link{
 	border-bottom:1px solid white;
 	font-family: Montserrat;
 	color: white;
+=======
+}
+.footerp{
+	 display:none;height:auto;position:absolute;top:100%;right:0;left:0;background:#eee;
+>>>>>>> origin/master
 }
 .sbar:focus{
 	outline: none;
