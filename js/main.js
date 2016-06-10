@@ -1881,19 +1881,21 @@ shuffle(dat);
     	}
     	$('nav ul').html(cook);
     }
+
 function powder(){
-  var cooks="";
-  var query=$('#search').val();
-  for(var i=0;i<dat.length;i++){
-    var nm=dat[i].Name.toLowerCase();
-        
-        if (nm.indexOf(query.toLowerCase())!=-1){
-          cooks=cooks+'<a href="#" onclick="forshana(this);" damn='+dat[i].Link+'><li>'+dat[i].Name+'</li></a>';
-          //onclick="forshana('+dat[i].Link+');"
-        }
-      }
-      $('nav ul').html(cooks);
+	var cooks="";
+	var query=$('#search').val();
+	for(var i=0;i<dat.length;i++){
+		var nm=dat[i].Name.toLowerCase();
+    		
+    		if (nm.indexOf(query.toLowerCase())!=-1){
+    			cooks=cooks+'<a href="#" onclick="forshana(this);" damn='+dat[i].Link+'><li>'+dat[i].Name+'</li></a>';
+    			//onclick="forshana('+dat[i].Link+');"
+    		}
+    	}
+    	$('nav ul').html(cooks);
 }
+
 
 function forshana(abra){
 	if(bip==-1){
