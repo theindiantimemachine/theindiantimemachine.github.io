@@ -1,4 +1,5 @@
 var yearval=2005;
+var played=[];
 var bip=-1;
 var counter=0;
 var dat=[
