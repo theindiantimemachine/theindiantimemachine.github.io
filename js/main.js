@@ -1902,15 +1902,48 @@ var dork="https://www.youtube.com/embed/"+videoid+"?autoplay=1&showinfo=0&contro
 $('#ytplayer').attr('src', dork);
 }
 function yalgaar2(){
-	var randN=Math.floor(Math.random()*(dat.length-1));
-	var videoid=dat[randN].Link;
-	var dork="https://www.youtube.com/embed/"+videoid+"?autoplay=1&showinfo=0&controls=1";
+  var cookz=[];
+      for(var i=0;i<dat.length;i++){
+        if((dat[i].Tags=="Music" && $('#mu').is(':checked')==false)||(dat[i].Tags=="Advertisement" && $('#ad').is(':checked')==false)||(dat[i].Tags=="Serial" && $('#tv').is(':checked')==false)){
+          continue;
+        }
+        
+          cookz.push(i);
+          //onclick="forshana('+dat[i].Link+');"
+        
+      }
+	var randN=Math.floor(Math.random()*(cookz.length));
+
+  var randNn=cookz[randN];
+  if($.inArray(randNn,played)==-1){
+    played.push(randNn);
+      var videoid=dat[randNn].Link;
+  var dork="https://www.youtube.com/embed/"+videoid+"?autoplay=1&showinfo=0&controls=1";
 if(bip==-1){
 $('.framee').html('<iframe id="ytplayer" type="text/html" src="" frameborder="0" allowfullscreen></iframe>');
 bip=100;
 }
 $('#ytplayer').attr('src', dork);
+  }
+else{
+for(var k=0;k<cookz.length;k++){
+  if($.inArray(cookz[i],played)==-1){
+    played.push(cookz[i]);
+      var videoid=dat[cookz[i]].Link;
+  var dork="https://www.youtube.com/embed/"+videoid+"?autoplay=1&showinfo=0&controls=1";
+if(bip==-1){
+$('.framee').html('<iframe id="ytplayer" type="text/html" src="" frameborder="0" allowfullscreen></iframe>');
+bip=100;
 }
+$('#ytplayer').attr('src', dork);
+break;
+  }
+  }
+  alert("The database is exhausted as all videos have been played. Please refresh the browser to play again.");
+}
+
+}
+
 function showfoot(){
 	counter++;
 	if(counter%2==1){
